@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Top Section */
+
+.top {
+  display: flex;
+  padding-bottom: 10%;
+  background-image: url(./image/header-bg.png);
+  background-repeat: no-repeat;
+}
+
+.half-width {
+  width: 40%;
+  margin: 5% 10%;
+}
+
+.half-width p {
+  line-height: 1.8;
+}
+
+.half-width img {
+  width: 100%;
+}
+
+#pink-text {
+  color: rgb(236, 76, 122);
+  font-size: 40px;
+  line-height: 1.9;
+}
+
+.btn-style {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 700;
+  background: linear-gradient(45deg, rgb(236, 79, 146), rgb(237, 75, 112));
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+.btn-style:hover {
+  background: linear-gradient(45deg, rgb(237, 75, 112), rgb(236, 79, 146));
+}
+
+/* Middle biography section */
+.middle-biography {
+  display: flex;
+  padding-bottom: 10%;
+  background-image: url(./image/biography-bg.png);
+  background-repeat: no-repeat;
+}
+
+.half-width p {
+  margin: 5% 0;
+}
+
+/* Work section  */
+.work {
+  padding-bottom: 10%;
+  background-image: url(./image/latest-work-bg.png);
+  background-repeat: no-repeat;
+}
+
+.work h2 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.work-img {
+  display: flex;
+  margin: 0 60px;
+}
+
+.work-img img {
+  width: 30%;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.work-img img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* about section  */
+
+.about-us {
+}
+
+.ab-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ab-div h2 {
+  padding-bottom: 5%;
+}
+
+.ab-div > p {
+  margin-bottom: 5%;
+  padding: 0 25%;
+  line-height: 1.8;
+}
+
+.ceo-text-style {
+  color: rgb(92, 92, 92);
+  padding-top: 5px;
+  margin-bottom: 5%;
+}
+
+.card-style {
+  /* background: linear-gradient(45deg, hotpink, purple); */
+  background: linear-gradient(45deg, rgb(236, 79, 146), rgb(237, 75, 112));
+  text-align: center;
+  padding: 50px;
+  margin: 0 auto;
+  width: 560px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "PT Serif", serif;
+  line-height: 2;
+}
+
+.card-style:hover {
+  background: linear-gradient(45deg, rgb(237, 75, 112), rgb(236, 79, 146));
+}
+
+footer {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 12px;
+  background-image: url(./image/footer-bg.png);
+  background-repeat: no-repeat;
+}
