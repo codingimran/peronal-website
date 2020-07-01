@@ -6,6 +6,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  width: 80%;
+  margin: auto;
 }
 
 /* Top Section */
@@ -13,7 +15,7 @@ body {
 .top {
   display: flex;
   padding-bottom: 10%;
-  background-image: url(./image/header-bg.png);
+  background-image: url(../image/header-bg.png);
   background-repeat: no-repeat;
 }
 
@@ -54,7 +56,7 @@ body {
 .middle-biography {
   display: flex;
   padding-bottom: 10%;
-  background-image: url(./image/biography-bg.png);
+  background-image: url(../image/biography-bg.png);
   background-repeat: no-repeat;
 }
 
@@ -65,7 +67,7 @@ body {
 /* Work section  */
 .work {
   padding-bottom: 10%;
-  background-image: url(./image/latest-work-bg.png);
+  background-image: url(../image/latest-work-bg.png);
   background-repeat: no-repeat;
 }
 
