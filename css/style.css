@@ -159,10 +159,15 @@ footer {
 
 .cm-style {
   width: 400px;
-  border: 1px solid gray;
+  border: 1px solid rgba(128, 128, 128, 0.2);
   margin: 5% auto;
   padding: 40px;
+  padding-top: 20px;
   border-radius: 5px;
+}
+
+.cm-style:hover {
+  box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.2);
 }
 
 .whosays {
