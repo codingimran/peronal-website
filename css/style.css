@@ -108,10 +108,6 @@ body {
   text-align: center;
 }
 
-.ab-div h2 {
-  padding-bottom: 5%;
-}
-
 .ab-div > p {
   margin-bottom: 5%;
   padding: 0 25%;
@@ -147,4 +143,28 @@ footer {
   margin-bottom: 12px;
   background-image: url(./image/footer-bg.png);
   background-repeat: no-repeat;
+}
+
+.ab-div .border {
+  border-bottom: 3px solid;
+  border-image: linear-gradient(45deg, rgb(28, 206, 216), rgb(55, 153, 245));
+  border-image-slice: 1;
+  width: 150px;
+  margin: 15px auto 5% auto;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.cm-style {
+  width: 400px;
+  border: 1px solid gray;
+  margin: 5% auto;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.whosays {
+  padding-bottom: 5px;
 }
