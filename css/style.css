@@ -6,7 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  width: 85%;
+  /* width: 100%; */
   margin: auto;
 }
 
@@ -126,6 +126,7 @@ body {
   text-align: center;
   padding: 50px;
   margin: 0 auto;
+  margin-top: 35px;
   width: 560px;
   border-radius: 10px;
   color: #fff;
@@ -137,24 +138,18 @@ body {
   background: linear-gradient(45deg, rgb(237, 75, 112), rgb(236, 79, 146));
 }
 
-footer {
-  text-align: center;
-  margin-top: 10%;
-  margin-bottom: 12px;
-  background-image: url(../image/footer-bg.png);
-  background-repeat: no-repeat;
-}
-
 .ab-div .border {
   border-bottom: 3px solid;
   border-image: linear-gradient(45deg, rgb(28, 206, 216), rgb(55, 153, 245));
   border-image-slice: 1;
-  width: 150px;
-  margin: 15px auto 5% auto;
+  width: 90px;
+  margin: 15px auto 0 auto;
 }
 
 .flex-container {
   display: flex;
+  width: 75%;
+  margin: auto;
 }
 
 .cm-style {
@@ -172,4 +167,24 @@ footer {
 
 .whosays {
   padding-bottom: 5px;
+}
+
+.client-img {
+  width: 40%;
+  border-radius: 100%;
+  margin: 0 auto 15px auto;
+}
+
+.client-img img {
+  width: 100%;
+  border-radius: 100%;
+  padding: 10%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 12px;
+  background-image: url(../image/footer-bg.png);
+  background-repeat: no-repeat;
 }
