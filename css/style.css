@@ -6,7 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 
@@ -22,6 +22,10 @@ body {
 .half-width {
   width: 40%;
   margin: 5% 10%;
+}
+
+.new-style {
+  position: relative;
 }
 
 .half-width p {
