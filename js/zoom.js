@@ -5,7 +5,7 @@ var modal = document.getElementById("myModal");
 var img = document.getElementById("myImg");
 var img2 = document.getElementById("myImg2");
 var img3 = document.getElementById("myImg3");
-var modalImg = document.getElementById("img-1");
+var modalImg = document.getElementById("img-container");
 var captionText = document.getElementById("caption");
 
 img.onclick = function () {
